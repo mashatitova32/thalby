@@ -6,51 +6,273 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                       aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-items-start" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Shop </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Try a Free Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stories</a>
+                    </li>
+                </ul>
+                <ul class="header_icon">
+                    <li>
+                        <a href="#">
+                            <img src="img/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/search.svg" alt="search">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/shop.svg" alt="shop">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </header>
+<section class="main_banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>
+                    Fall deeper in love <br> with <br> humanity.
+                </h1>
+                <p>
+                    Get to know the world through our concise, <br> informative and inspiring guides.
+                </p>
+                <a href="#" class="btn btn-dark">Shop Now</a>
+            </div>
+            <div class="col-md-6">
+                <img src="img/banner.png" class="d-block" alt="banner">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="guides text-center">
+    <div class="container">
+        <h2>Our guides explain countries and cultures.</h2>
+        <p class="mb-5">Are you curious about the world around you? Our guides are for smart global citizens, world
+            travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they
+            care about.</p>
+        <p>Available as ebooks here and on Amazon.</p>
 
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    </div>
+</section>
+<section class="sellers text-center">
+    <div class="container">
+        <h2>Our best sellers</h2>
+        <div class="d-md-flex d-block justify-content-between flex-wrap">
+            <div class="card">
+                <img src="img/image_1.png" class="card-img-top" alt="image_1">
+                <div class="card-body">
+                    <h5 class="card-title">Thalby Guide to French Culture and Heritage</h5>
+                    <p class="card-text">USD 6.99</p>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/image_2.png" class="card-img-top" alt="image_2">
+                <div class="card-body">
+                    <h5 class="card-title">Thalby Guide to French People and Society</h5>
+                    <p class="card-text">USD 6.99</p>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/image_3.png" class="card-img-top" alt="image_3">
+                <div class="card-body">
+                    <h5 class="card-title">Thalby Guide to German Culture and Heritage</h5>
+                    <p class="card-text">USD 6.99</p>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="people">
+    <div class="container">
+        <div class="row justify-content-start align-items-center text-md-left text-center">
+            <div class="col-md-5">
+                <img src="img/people.png" alt="image">
+            </div>
+            <div class="col-xl-6 col-lg-4">
+                <h3>People and Society</h3>
+                <p>Our guides to society deliver all the social insight you need, helping you understand how people
+                    live,
+                    love and play today and why communities are the way they are.</p>
+                <a href="#">Shop Society Guides</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="culture">
+    <div class="container">
+        <div class="row justify-content-end align-items-center text-md-right text-center">
+            <div class="col-xl-6 col-lg-4 ">
+                <h3>Culture and Heritage</h3>
+                <p>As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture. </p>
+                <a href="#">Shop Culture Guides</a>
+            </div>
+            <div class="col-md-5">
+                <img src="img/culture.png" alt="culture">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="power">
+    <div class="container">
+        <div class="row justify-content-start align-items-center text-md-left text-center">
+            <div class="col-md-5">
+                <img src="img/power.png" alt="power">
+            </div>
+            <div class="col-xl-6 col-lg-4">
+                <h3>Power and Politics</h3>
+                <p>Our guides to power take you behind the scenes to explore the power dynamics, policies and politics shaping a country's future and its global position.</p>
+                <a href="#">Coming 2022!</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features">
+        <div class="container text-center">
+            <h2>Some of the features that <br> make Thalby guides unique</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <article>
+                        <img src="img/written.svg" alt="img">
+                        <h4>Written by <br> locals</h4>
+                    </article>
+                    <article>
+                        <img src="img/key.svg" alt="img">
+                        <h4>Key facts and <br> etiquette tips</h4>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article>
+                        <img src="img/packed.svg" alt="img">
+                        <h4>Packed with <br> insight</h4>
+                    </article>
+                    <article>
+                        <img src="img/concise.svg" alt="img">
+                        <h4>A concise <br> 1-hour read</h4>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article>
+                        <img src="img/interviews.svg" alt="img">
+                        <h4>Interviews with <br> diverse voices</h4>
+                    </article>
+                    <article>
+                        <img src="img/instant.svg" alt="img">
+                        <h4>Instant <br> digital access</h4>
+                    </article>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="each">
+    <div class="container text-center">
+        <h2>Each Thalby guide includes interviews with <br> a range of fascinating voices, such as</h2>
+    </div>
+</section>
+<section class="discover">
+    <div class="container d-flex justify-content-between text-center">
+        <article>
+            <img src="img/camille.svg" alt="img">
+            <h4>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</h4>
+            <p>Camille Muller, <br> Landscape Designer, France</p>
+            <a href="#">Discover</a>
+        </article>
+        <article>
+            <img src="img/sonia.svg" alt="img">
+            <h4>"Magic is not magic in the sense that I can just wish for anything."</h4>
+            <p>Sonia Kowalewski,<br> Witch, Germany</p>
+            <a href="#">Discover</a>
+        </article>
+        <article>
+            <img src="img/lilly.svg" alt="img">
+            <h4>"I was eight years old when I entered my first competition. I won it."</h4>
+            <p>Lilly Stoephasius,<br>Skateboarder, Germany</p>
+            <a href="#">Discover</a>
+        </article>
+    </div>
+</section>
+<section class="form">
+    <div class="container text-center">
+        <h3>Keep in touch</h3>
+        <h5>Get our travel advice, global views and travel freebies in your inbox</h5>
+        <form>
+            <div class="d-flex justify-content-center form-name">
+                <p><input type="text" placeholder="First Name"></p>
+                <p><input type="text" placeholder="Last Name"></p>
+            </div>
+            <p class="form-mail"><input type="email" placeholder="Email"></p>
+            <p class="Subscribe"><input type="submit" value="Subscribe">
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-2">
+                <img src="img/logo-footer.svg" alt="#">
+                <div class="logosvg">
+                    <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
+                    <a href=""><img src="img/instagtam-footer.svg" alt="instagram"></a>
+                    <a href=""><img src="img/twitter.svg" alt="twitter"></a>
+                </div>
+            </div>
+            <div class="d-flex col-md-5 mw-100">
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Write for Us</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">Email hi@thalby.com</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <p class="text-center">Thalby LLC © 2021</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
